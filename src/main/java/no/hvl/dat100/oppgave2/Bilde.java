@@ -8,6 +8,11 @@ public class Bilde extends Tekst {
 	
 	public Bilde(int id, String bruker, String dato, String tekst, String url) {
 		
+		this.id = id;
+		this.bruker = bruker;
+		this.dato = dato;
+		this.likes = 0;
+		this.tekst = tekst;
 		this.url = url;
 	}
 
