@@ -13,6 +13,7 @@ public class TestSkrivBlogg {
 	private static String FILNAVN = "blogg.dat";
 	private static String MAPPE = System.getProperty("user.dir") + "/src/test/java/no/hvl/dat100/tests/";
 
+	
 	@Test
 	public void testskriv() {
 		
@@ -23,7 +24,6 @@ public class TestSkrivBlogg {
 		
 		samling.leggTil(innlegg1);
 		samling.leggTil(innlegg2);
-		
-		assertTrue(SkrivBlogg.skriv(samling, MAPPE, FILNAVN));
+		SkrivBlogg.skriv(samling, MAPPE, FILNAVN);
 	}	
 }

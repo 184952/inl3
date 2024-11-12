@@ -96,7 +96,7 @@ public class Blogg {
 
 			ost[i] = innleggstabell[i];
 		}
-
+innleggstabell = ost;
 	}
 
 	public boolean leggTilUtvid(Innlegg innlegg) {
